@@ -1,7 +1,5 @@
 package in.rcard.fp.typeclasses
 
-import in.rcard.fp.typeclasses.CarbonFootPrint.MethodOverloading.{carbonFootPrint, frisona, me, superCar}
-
 object CarbonFootPrint {
 
   case class Cow(weight: Double)
