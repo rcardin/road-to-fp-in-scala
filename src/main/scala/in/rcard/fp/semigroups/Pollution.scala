@@ -83,6 +83,10 @@ object Pollution {
     import cats.instances.map._
 
     println(s"Add two pollutions maps ${add(pollutions, monthlyPollutions)}")
+
+    import cats.syntax.semigroup._
+
+    println(s"Add two pollutions maps ${pollutions |+| monthlyPollutions}")
   }
 
 }
