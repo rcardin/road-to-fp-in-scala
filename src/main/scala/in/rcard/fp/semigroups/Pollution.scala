@@ -1,7 +1,5 @@
 package in.rcard.fp.semigroups
 
-import in.rcard.fp.semigroups.Pollution.ImplicitsGenericAddExample.{add, monthlyPollutions, pollutions}
-
 object Pollution {
 
   case class Pollution(dailyCO2Grams: Double)
